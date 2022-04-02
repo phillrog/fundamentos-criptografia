@@ -1,0 +1,8 @@
+from mix_column_base import *
+
+mixedColumns = []
+mixedColumns.append(mixColumns(0x6f, 0xf0, 0x26, 0xeb))
+mixedColumns.append(mixColumns(0x7c, 0x77, 0xb7, 0x2b))
+mixedColumns.append(mixColumns(0xc9, 0xf8, 0x6f, 0x15))
+mixedColumns.append(mixColumns(0x09, 0xf0, 0x51, 0xc5))
+exibirMatrizMixColumn(mixedColumns)
